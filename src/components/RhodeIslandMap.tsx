@@ -65,7 +65,7 @@ export default function RhodeIslandMap() {
       <MapContainer
         center={[41.5801, -71.4774]} // Focus the center of Rhode Island
         zoom={8}
-        style={{ height: '500px', width: '100%' }}
+        style={{ height: '500px', width: '100%' }} // f**K adaptive layouts B)
       >
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
